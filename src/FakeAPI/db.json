@@ -1,0 +1,116 @@
+{
+    "lowongan": [
+      {
+        "id": 1,
+        "nama": "PT Perusahaan Industri Ceres",
+        "logo": "https://s.itk.ac.id/ceres",
+        "tanggal": "2022-12-09",
+        "deskripsi": "https://s.itk.ac.id/ceresdetail"
+      },
+      {
+        "id": 2,
+        "nama": "PT Astra International Tbk – AstraWorld",
+        "logo": "https://s.itk.ac.id/astraworldlogo",
+        "tanggal": "2022-12-10",
+        "deskripsi": "s.itk.ac.id/astraworld"
+      },
+      {
+        "id": 3,
+        "nama": "TurnkeyID",
+        "logo": "https://s.itk.ac.id/turnkey",
+        "tanggal": "2022-12-11",
+        "deskripsi1": "https://s.itk.ac.id/t1",
+        "deskripsi2": "https://s.itk.ac.id/t2",
+        "deskripsi3": "https://s.itk.ac.id/t3",
+        "deskripsi4": "https://s.itk.ac.id/t4"
+      },
+      {
+        "id": 4,
+        "nama": "ZettaByte Pte Ltd",
+        "logo": "https://s.itk.ac.id/zettabyte",
+        "tanggal": "2022-12-12",
+        "deskripsi": "https://s.itk.ac.id/zettadetail"
+      },
+      {
+        "id": 5,
+        "nama": "Ninja Xpress",
+        "logo": "https://s.itk.ac.id/ninjaxpress",
+        "tanggal": "2022-12-14",
+        "deskripsi": "https://s.itk.ac.id/ninjadetail"
+      },
+      {
+        "id": 6,
+        "nama": "Cybozu Inc",
+        "logo": "https://s.itk.ac.id/cybozu",
+        "tanggal": "2022-12-14",
+        "deskripsi": "https://s.itk.ac.id/cydetail"
+      },
+      {
+        "id": 7,
+        "nama": "Ceres",
+        "logo": "https://s.itk.ac.id/ceres",
+        "tanggal": "2022-12-14",
+        "deskripsi": "https://s.itk.ac.id/ceresdetail"
+      },
+      {
+        "id": 8,
+        "nama": "PT Midi Utama Indonesia Tbk ",
+        "logo": "https://s.itk.ac.id/alfamidi",
+        "tanggal": "2022-12-14",
+        "deskripsi": "https://s.itk.ac.id/alfamididetail"
+      }
+    ],
+
+    "magang" : [
+        {
+          "id": 1,
+          "nama": "PT Freeport Indonesia",
+          "logo": "https://s.itk.ac.id/freeport",
+          "tanggal": "2022-12-09",
+          "deskripsi": "https://s.itk.ac.id/freeportdetail"
+        },
+        {
+          "id": 2,
+          "nama": "PT P&G Home Products Indonesia",
+          "logo": "https://s.itk.ac.id/pg",
+          "tanggal": "2022-12-10",
+          "deskripsi": "s.itk.ac.id/detailpg"
+        },
+        
+        {
+          "id": 4,
+          "nama": "ZettaByte Pte Ltd ",
+          "logo": "https://s.itk.ac.id/huawei",
+          "tanggal": "2022-12-12",
+          "deskripsi": "https://s.itk.ac.id/huaaa"
+        },
+        {
+          "id": 5,
+          "nama": "PT Bank Rakyat Indonesia (Persero) Tbk",
+          "logo": "https://s.itk.ac.id/bri",
+          "tanggal": "2022-12-14",
+          "deskripsi": "https://s.itk.ac.id/briflyer"
+        },
+        {
+          "id": 6,
+          "nama": "Kementerian Ketenagakerjaan Republik Indonesia",
+          "logo": "https://s.itk.ac.id/kkri",
+          "tanggal": "2022-12-14",
+          "deskripsi": "https://s.itk.ac.id/kkridetail"
+        },
+        {
+          "id": 7,
+          "nama": "PT Futaba Industrial Indonesia ",
+          "logo": "https://s.itk.ac.id/futaba",
+          "tanggal": "2022-12-14",
+          "deskripsi": "https://s.itk.ac.id/futabadetail"
+        },
+        {
+          "id": 8,
+          "nama": "PT Midi Utama Indonesia Tbk ",
+          "logo": "https://s.itk.ac.id/alfamidi",
+          "tanggal": "2022-12-14",
+          "deskripsi": "https://s.itk.ac.id/alfain"
+        }
+      ]
+  }

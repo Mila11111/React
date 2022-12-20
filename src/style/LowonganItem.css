@@ -1,0 +1,29 @@
+.nama {
+    margin-left: 410px;
+    margin-top: -165px;
+}
+
+.tanggal {
+    margin-left: 410px;
+}
+
+.halaman {
+    content: '';
+    border-bottom: 5px solid #1A0F5B;
+    bottom: 0;
+    left: 0;
+    width: 90px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    margin-left: 40px;
+  }
+
+.back {
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+.judul {
+    margin-left: 40px;
+    margin-top: 20px;
+}

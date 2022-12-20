@@ -1,0 +1,88 @@
+{
+    "lowongan": [
+      {
+        "id": 1,
+        "nama": "PT Perusahaan Industri Ceres",
+        "deskripsi": "https://s.itk.ac.id/ceresdetail"
+      },
+      {
+        "id": 2,
+        "nama": "PT Astra International Tbk – AstraWorld",
+        "deskripsi": "s.itk.ac.id/astraworld"
+      },
+      {
+        "id": 3,
+        "nama": "TurnkeyID",
+        "deskripsi": "https://s.itk.ac.id/t1"
+      },
+      {
+        "id": 4,
+        "nama": "ZettaByte Pte Ltd",
+        "deskripsi": "https://s.itk.ac.id/zettadetail"
+      },
+      {
+        "id": 5,
+        "nama": "Ninja Xpress",
+
+        "deskripsi": "https://s.itk.ac.id/ninjadetail"
+      },
+      {
+        "id": 6,
+        "nama": "Cybozu Inc",
+        "deskripsi": "https://s.itk.ac.id/cydetail"
+      },
+      {
+        "id": 7,
+        "nama": "Ceres",
+        "deskripsi": "https://s.itk.ac.id/ceresdetail"
+      },
+      {
+        "id": 8,
+        "nama": "PT Midi Utama Indonesia Tbk ",
+        "deskripsi": "https://s.itk.ac.id/alfamididetail"
+      }
+    ],
+
+    "magang" : [
+        {
+          "id": 1,
+          "nama": "PT Freeport Indonesia",
+          "deskripsi": "https://s.itk.ac.id/freeportdetail"
+        },
+        {
+          "id": 2,
+          "nama": "PT P&G Home Products Indonesia",
+          "deskripsi": "s.itk.ac.id/detailpg"
+        },
+        {
+          "id": 3,
+          "nama": "Kalbe Nutritionals ",
+          "deskripsi": "https://s.itk.ac.id/kalbeflyer"
+        },
+        {
+          "id": 4,
+          "nama": "ZettaByte Pte Ltd ",
+          "deskripsi": "https://s.itk.ac.id/huaaa"
+        },
+        {
+          "id": 5,
+          "nama": "PT Bank Rakyat Indonesia (Persero) Tbk",
+          "deskripsi": "https://s.itk.ac.id/briflyer"
+        },
+        {
+          "id": 6,
+          "nama": "Kementerian Ketenagakerjaan Republik Indonesia",
+          "deskripsi": "https://s.itk.ac.id/kkridetail"
+        },
+        {
+          "id": 7,
+          "nama": "PT Futaba Industrial Indonesia ",
+          "deskripsi": "https://s.itk.ac.id/futabadetail"
+        },
+        {
+          "id": 8,
+          "nama": "PT Midi Utama Indonesia Tbk ",
+          "deskripsi": "https://s.itk.ac.id/alfain"
+        }
+      ]
+  }

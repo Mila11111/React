@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+*{
+  font-family: 'Poppins', sans-serif;
+}
+
+.bg-login{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url(../src/assets/Background\ form.jpeg);
+
+  font-size: xx-large;
+  font-weight: 500; 
+}
+
+.form__login {
+padding: 50px;
+margin: 50px;
+width: 450px;
+height: 600px;
+
+background: #FEFEFE;
+box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.5);
+border-radius: 30px;
+}
+
+.form__login .main-header{
+  color: #1A0F5B;
+  text-align: center;
+}
+
+.form__login .logo{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: block;
+  margin-left: auto; 
+  margin-right: auto;
+  width: 100px;
+}
+
+.form__login .loginbtn{
+  background-color: white;
+  color: black;
+  margin-top: 15px;
+  width: 350px;
+  height: 35px;
+  border-radius: 25px;
+  border-color: #2E509A;
+  transition-duration: 0.3s;
+}
+
+.form__login .loginbtn:hover{
+  cursor: pointer;
+  background-color: #1A0F5B;
+  color: white;
+  margin-top: 15px;
+  width: 350px;
+  height: 35px;
+  border-radius: 25px;
+  border-color: white;
+  box-shadow: 0 5px 8px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.form__login .signupbtn{
+  margin-left: 150px;
+}
+
+.form_signup .bg_signup{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url(../src/assets/Logo\ ITK.png);
+
+  font-size: xx-large;
+  font-weight: 500; 
+}
+
+.form__signup {
+  padding: 50px;
+  margin: 50px;
+  width: 450px;
+  height: 600px;
+  
+  background: #FEFEFE;
+  box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.5);
+  border-radius: 30px;
+  }
+
+.form__signup .main-header{
+  color: #1A0F5B;
+  text-align: center;
+}
+
+.form__signup .logo{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: block;
+  margin-left: auto; 
+  margin-right: auto;
+  width: 100px;
+}
+
+.form__signup .signupbtn{
+  background-color: white;
+  color: black;
+  margin-top: 15px;
+  width: 350px;
+  height: 35px;
+  border-radius: 25px;
+  border-color: #2E509A;
+  transition-duration: 0.3s;
+}
+
+.form__signup .signupbtn:hover{
+  cursor: pointer;
+  background-color: #1A0F5B;
+  color: white;
+  margin-top: 15px;
+  width: 350px;
+  height: 35px;
+  border-radius: 25px;
+  border-color: white;
+  box-shadow: 0 5px 8px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.form__signup .loginbtn{
+  margin-left: 150px;
+}
+
+.form__mentoring {
+  padding: 50px;
+  margin: 50px;
+  width: 650px;
+  height: 600px;
+  
+  background: #FEFEFE;
+  box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.5);
+  border-radius: 30px;
+  }
+  
+  .form__mentoring .main-header{
+    color: #1A0F5B;
+    text-align: center;
+  }
+  
+  .form__mentoring .logo{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: block;
+    margin-left: auto; 
+    margin-right: auto;
+    width: 100px;
+  }
+  
+  .form__mentoring .loginbtn{
+    background-color: white;
+    color: black;
+    margin-top: 15px;
+    width: 550px;
+    height: 35px;
+    border-radius: 25px;
+    border-color: #2E509A;
+    transition-duration: 0.3s;
+  }
+  
+  .form__mentoring .loginbtn:hover{
+    cursor: pointer;
+    background-color: #1A0F5B;
+    color: white;
+    margin-top: 15px;
+    width: 550px;
+    height: 35px;
+    border-radius: 25px;
+    border-color: white;
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+  
+  .form__mentoring .signupbtn{
+    margin-left: 150px;
+  }
+
+  .bg-admin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100vh;
+    background-color: rgba(64, 123, 255, 0.65);
+  
+    font-size: small;
+    font-weight: 500; 
+  }
+
+  .form__admina {
+    padding: 50px;
+    margin: 50px;
+    width: 450px;
+    height: 600px;
+    
+    box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.5);
+    border-radius: 30px;
+    }
+
+    .form__admin .main-header{
+      color: white;
+      font-size: x-large;
+      font-weight: bold;
+    }
+    
+    .form__admin .sub-header{
+      color: #1A0F5B;
+      margin-left: 20px;
+    }
+    
+    .form__admin .logo{
+      margin-top: 20px;
+      margin-bottom: 20px;
+      display: block;
+      margin-left: auto; 
+      margin-right: auto;
+      width: 100px;
+    }
+    
+    .form__admin .loginbtn{
+      background-color: white;
+      cursor: pointer;
+      color: black;
+      margin-left: 400px;
+      width: 100px;
+      height: 35px;
+      border-radius: 25px;
+      border-color: #2E509A;
+      transition-duration: 0.3s;
+      font-size: large;
+    }
+    
+    .form__admin .loginbtns:hover{
+      cursor: pointer;
+      background-color: #1A0F5B;
+      color: white;
+      margin-left: 400px;
+      width: 100px;
+      height: 35px;
+      border-radius: 25px;
+      border-color: white;
+      box-shadow: 0 5px 8px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+      font-size: large;
+    }
+    
+    .form__admin .signupbtn{
+      margin-left: 150px;
+    }

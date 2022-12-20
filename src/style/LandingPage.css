@@ -1,0 +1,49 @@
+.Navbar {
+    height: 12vh;
+    background-color: #091D47;
+}
+
+.navbar-logo {
+    height: 50px;
+    width: 50px;
+    margin-right: 10px;
+    margin-left: -80px;
+}
+
+.image-banner {
+    width: 1370px !important;
+    height: 570px !important;
+}
+
+.Logo {
+    color: white !important;
+    font-weight: 500 !important;
+}
+
+.Navigation {
+    margin-left: 10px;
+    margin-right: 10px;
+    color: white !important;
+    font-weight: 500 !important;
+}
+
+.Navigation:hover {
+    color: #5a99f8 !important;
+}
+
+.pagination {
+    display:flex;
+    justify-content: center;
+    margin-top: 2cm;
+}
+
+.dropdown-toggle {
+    color: white !important;
+    font-weight: 500 !important;
+
+}
+
+.btn-primary {
+    margin-left: 20px;
+}
+
