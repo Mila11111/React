@@ -11,50 +11,48 @@ import { useParams } from 'react-router-dom';
 const DeskripsiLowongan = () => {
   const navigate = useNavigate();
   const Homepage = () => {
-    navigate('/Homepage')
+    navigate('/lowongan')
   };
-    const [dataLowongan, setLowongan] = useState({});
-    const { id } = useParams();
+  const [dataLowongan, setLowongan] = useState({});
+  const { id } = useParams();
 
-    useEffect(() => {
-      if ( id ) {
-        Axios.get('http://localhost:3006/lowongan/${id}')
+  useEffect(() => {
+    if (id) {
+      Axios.get('http://localhost:3006/lowongan/' + id)
         .then(res => {
-            console.log('data API', res.data)
-            const responseAPI = res.data;
-  
-            setLowongan(responseAPI)
+          console.log('data API', res.data)
+          const responseAPI = res.data;
+
+          setLowongan(responseAPI)
         }).catch(err => {
-            console.log('error: ', err)
+          console.log('error: ', err)
         })
-      }
-    }, [id])
+    }
+  }, [id])
 
-
-  
-    return (
-      <div>
-        <NavigationBarHomepage/>
-        <header>
-          <Nav.Link>Kembali</Nav.Link>
-          <h1>Lowongan</h1>
-        </header>
+  return (
+    <div>
+      <NavigationBarHomepage />
+      <header>
+        <Nav.Link onClick={Homepage}>Kembali</Nav.Link>
+        <h1>Lowongan</h1>
         <div className='halaman-lowongan'>
           <div className='content'>
-            {dataLowongan.map(lowongan => {
-              return (
-                <DLow 
-                key = {lowongan.id}
-                nama={lowongan.nama}
-                deskripsi={lowongan.deskrpsi}
-                />
-              )
+            {/* {dataLowongan.map(lowongan => {
+              return ( */}
+            <DLow
+              key={dataLowongan.id}
+              nama={dataLowongan.nama}
+              deskripsi={dataLowongan.deskripsi}
+            />
+            {/* )
             })
-            }
+            } */}
           </div>
         </div>
-      </div>
-    );
+      </header>
+    </div>
+  );
 }
 
 export default DeskripsiLowongan;

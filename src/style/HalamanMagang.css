@@ -7,7 +7,7 @@
     margin-top: 15px;
     margin-bottom: 30px;
     margin-left: 40px;
-  }
+}
 
 .back {
     margin-left: 40px;
@@ -17,4 +17,32 @@
 .judul {
     margin-left: 40px;
     margin-top: 20px;
+}
+
+.halaman-lowongan,
+.halaman-magang {
+    margin-top: 10em;
+}
+
+.dlow,
+.dmag {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 7.5em;
+}
+
+.nama {
+    align-self: start;
+}
+
+.link-item,
+.link-item:visited,
+.link-item:link {
+    text-decoration: none;
+    color: black;
+}
+
+.link-item:hover {
+    color: pink;
 }

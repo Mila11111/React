@@ -7,50 +7,54 @@ import { Nav } from "react-bootstrap";
 import "../style/HalamanMagang.css"
 import MagangItem from "./MagangItem";
 import { useNavigate } from "react-router";
+import { useParams } from 'react-router-dom';
 
 
 const DeskripsiMagang = () => {
   const navigate = useNavigate();
   const Homepage = () => {
-    navigate('/Homepage')
+    navigate('/magang')
   };
-    const [dataMagang, setMagang] = useState([]);
-    useEffect((id) => {
-        Axios.get('http://localhost:3006/magang')
+  const [dataMagang, setMagang] = useState([]);
+  const { id } = useParams();
+
+  useEffect(() => {
+    if (id) {
+      Axios.get('http://localhost:3006/magang/' + id)
         .then(res => {
-            console.log('data API', res.data)
-            const responseAPI = res.data;
+          console.log('data API', res.data)
+          const responseAPI = res.data;
 
-            setMagang(responseAPI)
+          setMagang(responseAPI)
         }).catch(err => {
-            console.log('error: ', err)
+          console.log('error: ', err)
         })
-    }, [])
+    }
+  }, [])
 
-    return (
-      <div>
-        <NavigationBarHomepage/>
-        <header>
+  return (
+    <div>
+      <NavigationBarHomepage />
+      <header>
         <Nav.Link onClick={Homepage} >Kembali</Nav.Link>
-          <h1 >Magang</h1>
-        </header>
-        <div className='halaman-magang'>
-          <p className="halaman"></p>
-          <div className='content'>
-            {dataMagang.map(magang => {
-              return (
-                <DMag
-                key = {magang.id} 
-                nama={magang.nama}
-                deskripsi={magang.deskripsi}
-                />
-              )
+        <h1 >Magang</h1>
+      </header>
+      <div className='halaman-magang'>
+        <div className='content'>
+          {/* {dataMagang.map(magang => {
+              return ( */}
+          <DMag
+            key={dataMagang.id}
+            nama={dataMagang.nama}
+            deskripsi={dataMagang.deskripsi}
+          />
+          {/* )
             })
-            }
-          </div>
+            } */}
         </div>
       </div>
-    );
-  }
+    </div>
+  );
+}
 
 export default DeskripsiMagang;
